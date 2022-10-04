@@ -1,70 +1,74 @@
 /* General setup */
 
 * {
-    box-sizing: border-box;
-    font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
-    
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  
 
-  }
+}
 
-  header>h1{
-    font-size: 30px;
-    font-family: 'Arvo', serif;
-    text-align: center;
-    letter-spacing: 2px;
-  }
+header>h1{
+  font-size: 30px;
+  font-family: 'Arvo', serif;
+  text-align: center;
+  letter-spacing: 2px;
+}
 
-  section>h2{
-    font-size: 20px;
-    font-family: 'Arvo', serif;
-    letter-spacing: 2px;
-  }
+section>h2{
+  font-size: 20px;
+  font-family: 'Arvo', serif;
+  letter-spacing: 2px;
+}
 
-  h2 + p{
-    text-indent: 20px;
-  }
+h2 + p{
+  text-indent: 20px;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  word-spacing: 3px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid skyblue;
+  border-bottom: 5px solid skyblue;
   
-  body {
-    margin: 0 auto;
-    min-width: 1000px;
-    max-width: 1400px;
-    line-height: 1.6;
-    letter-spacing: 0.5px;
-    word-spacing: 3px;
-  }
+}
+
+li{
   
-  /* Layout */
-  
-  section {
-    float: left;
-    width: 50%;
-  }
-  
-  aside {
-    float: left;
-    width: 30%;
-  }
-  
-  nav {
-    float: left;
-    width: 20%;
-  }
-  
-  footer {
-    clear: both;
-  }
-  
-  header, section, aside, nav, footer {
-    padding: 20px;
-  }
-  
-  /* header and footer */
-  
-  header, footer {
-    border-top: 5px solid skyblue;
-    border-bottom: 5px solid skyblue;
-    
-  }
-  
-  /* WRITE YOUR CODE BELOW HERE */
+}
+
+/* WRITE YOUR CODE BELOW HERE */
